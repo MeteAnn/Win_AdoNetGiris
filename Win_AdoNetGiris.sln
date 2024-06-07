@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Win_AdoNetGiris", "Win_AdoNetGiris\Win_AdoNetGiris.csproj", "{018DE87E-1238-41A5-9ED5-EA6D228ACE85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{018DE87E-1238-41A5-9ED5-EA6D228ACE85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{018DE87E-1238-41A5-9ED5-EA6D228ACE85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{018DE87E-1238-41A5-9ED5-EA6D228ACE85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{018DE87E-1238-41A5-9ED5-EA6D228ACE85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56790631-946D-4EF2-8356-1951E721BE31}
+	EndGlobalSection
+EndGlobal
