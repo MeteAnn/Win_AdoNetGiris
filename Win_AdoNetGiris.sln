@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Win_AdoNetGiris", "Win_AdoNetGiris\Win_AdoNetGiris.csproj", "{018DE87E-1238-41A5-9ED5-EA6D228ACE85}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisconnectedMimari", "DisconnectedMimari\DisconnectedMimari.csproj", "{DD2EF9DA-7244-43D7-86EA-8F6CC1A4F7C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{018DE87E-1238-41A5-9ED5-EA6D228ACE85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{018DE87E-1238-41A5-9ED5-EA6D228ACE85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{018DE87E-1238-41A5-9ED5-EA6D228ACE85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD2EF9DA-7244-43D7-86EA-8F6CC1A4F7C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD2EF9DA-7244-43D7-86EA-8F6CC1A4F7C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD2EF9DA-7244-43D7-86EA-8F6CC1A4F7C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD2EF9DA-7244-43D7-86EA-8F6CC1A4F7C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
