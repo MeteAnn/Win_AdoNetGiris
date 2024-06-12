@@ -52,22 +52,32 @@ namespace DisconnectedMimari
         private void btnEkle2_Click(object sender, EventArgs e)
         {
 
+            
+
+            SqlCommand cmd = new SqlCommand();
+
+            cmd.CommandText = string.Format("insert Kategoriler (KategoriAdi, Tanimi) values ('{0}', '{1}')",txtKategoriAdi.Text,txtTanimi.Text);
+            cmd.Connection = baglanti;
+
             baglanti.Open();
 
-
-            SqlCommand komut = new SqlCommand("insert Kategoriler (KategoriAdi, Tanimi) values(@KategoriAdi, @Tanimi)", baglanti);
-
-            komut.Parameters.AddWithValue("@KategoriAdi", txtKategoriAdi.Text);
-            komut.Parameters.AddWithValue("@Tanimi",txtTanimi.Text);
-
-            komut.ExecuteNonQuery();
-
+            int etk = cmd.ExecuteNonQuery();
 
             baglanti.Close();
 
-            MessageBox.Show("Ürün Eklendi");
+            if (etk>0)
+            {
 
-            KategoriListesi();
+                MessageBox.Show("Kayıt Eklenmiştir.");
+                KategoriListesi();
+            }
+            else
+            {
+
+                MessageBox.Show("Kayıt Eklenemedi Hata Oluştur");
+
+
+            }
 
 
         }
