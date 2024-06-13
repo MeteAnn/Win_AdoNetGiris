@@ -209,7 +209,7 @@ namespace DisconnectedMimari
 
 
                     MessageBox.Show("Kayıt Silinmiştir");
-
+                    UrunListesi();
 
                 }
                 else
